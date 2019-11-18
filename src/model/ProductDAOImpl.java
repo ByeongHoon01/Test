@@ -26,6 +26,8 @@ public class ProductDAOImpl extends DAOBase implements ProductDAO {
 	private String sql_delete = "delete from product where code = ?";
 	private String sql_getone = "select * from product where code= ?";
 	private String sql_getList = "select * from product";
+	private final String TEST = "TEST/TEST/TEST"; 
+	
 	
 	@Override
 	public int create(ProductVO vo) throws SQLException {
